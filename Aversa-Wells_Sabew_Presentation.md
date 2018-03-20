@@ -1,6 +1,10 @@
 Visualizing State-Local Economy
 ================
 
+> Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
+> Rob Wells, Ph.D., University of Arkansas, Fayetteville, AR
+> ---
+
 **This a 1 hour hands-on session will show journalists how to retrieved and analyze regional GDP data and build basic maps with their findings.**
 
 Learning Outcome: Journalists will learn to retrieve customized economic data for their own cities, counties or states and the steps to put it on a basic map and an interactive chart. We will use Google Sheets and Tableau Public.
@@ -156,26 +160,27 @@ Notice in Measures that Latitude and Longitude measures are now created.
 
 **Follow These Steps In This Order:**
 
--- Click on "new worksheet" tab at lower right. It creates Sheet 2.
--- Drag Longtidue to Columns, Latitude to Rows
--- In upper right "Show Me" menu, click on the map icon. A grayed out world map appears.
--- Drag "Metro Area" to the sheet. A U.S. map appears with blue dots.
--- Filter "Metro Area" blue pill in the Marks formatting box next to the sheet. Click "Show Filter" and format the filter as "multiple values dropdown" as we had in the past.
--- Deselect "All" so nothing is checked. Then select:
--- Fayetteville
--- Fort Smith
--- Hot Springs
--- Jonesboro
--- Little Rock
--- Pine Bluff
+> -   Click on "new worksheet" tab at lower right. It creates Sheet 2.
+> -   Drag Longtidue to Columns, Latitude to Rows
+> -   In upper right "Show Me" menu, click on the map icon. A grayed out world map appears.
+> -   Drag "Metro Area" to the sheet. A U.S. map appears with blue dots.
 
--- Change "Automatic" in Marks Card. Click down arrow and select "Map." The blue metro areas will appear on the map.
--- Drag from Measures "Percent Change in real GDP" to the worksheet.
--- Bring up the data labels. Drag "Percent Change in real GDP" to Label box on Marks card.
--- Add Metro area names. Drag "Metro Area" to Label on Marks card. Click the Options box to allow labels to overlap
--- Format labels, drag search box, legend to bottom, write a headline
+> -   Filter "Metro Area" blue pill in the Marks formatting box next to the sheet. Click "Show Filter" and format the filter as "multiple values dropdown" as we had in the past.
+> -   Deselect "All" so nothing is checked. Then select:
+> -   Fayetteville
+> -   Fort Smith
+> -   Hot Springs
+> -   Jonesboro
+> -   Little Rock
+> -   Pine Bluff
 
-Your finished map should look like this:
+> -   Change "Automatic" in Marks Card. Click down arrow and select "Map." The blue metro areas will appear on the map.
+> -   Drag from Measures "Percent Change in real GDP" to the worksheet.
+> -   Bring up the data labels. Drag "Percent Change in real GDP" to Label box on Marks card.
+> -   Add Metro area names. Drag "Metro Area" to Label on Marks card. Click the Options box to allow labels to overlap
+> -   Format labels, drag search box, legend to bottom, write a headline
+
+**Your finished map should look like this:**
 
 ![](Images-Sabew/Finished%20Map.jpeg)
 
