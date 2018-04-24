@@ -2,7 +2,7 @@ Visualizing the State & Local Economy
 ================
 
 <center>
-<img src="Images-Sabew/Bea logo.jpg" width="225" height="200" />
+<img src="Images-Sabew/Bea logo.jpg" width="225" height="175" />
 <center>
 <center>
 <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />

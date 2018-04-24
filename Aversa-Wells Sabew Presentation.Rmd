@@ -1,13 +1,7 @@
 ---
 title: "Visualizing the State & Local Economy"
-output: html_document
+output: github_document
 ---
-
- 
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 
 <center><img src="Images-Sabew/Bea logo.jpg" width="225" height="175" /><center>  
 
