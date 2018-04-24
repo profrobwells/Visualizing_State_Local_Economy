@@ -2,7 +2,7 @@ Visualizing the State & Local Economy
 ================
 
 <center>
-<img src="Images-Sabew/Bea logo.jpg" width="250" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+<img src="Images-Sabew/Bea logo.jpg" width="225" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
 <center>
 > Rob Wells, Ph.D., University of Arkansas, Fayetteville, AR
 > Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
@@ -223,10 +223,12 @@ Thank you.
 Follow up questions:
 --------------------
 
-**Rob Wells - <rswells@uark.edu> or @rwells1961**
-**Jeannine Aversa - <Jeannine.Aversa@bea.gov> **
-**Thomas Dial - <Thomas.Dail@bea.gov> **
+> **Rob Wells - <rswells@uark.edu> or @rwells1961**
+> **Jeannine Aversa - <Jeannine.Aversa@bea.gov> **
+> **Thomas Dial - <Thomas.Dail@bea.gov> ** --
 
 <img src="Images-Sabew/Bea logo.jpg" width="250" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+
+--
 
 --30--
