@@ -1,36 +1,45 @@
-Visualizing State-Local Economy
+Visualizing the State & Local Economy
 ================
 
-> Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
+<center>
+<img src="Images-Sabew/Bea logo.jpg" width="250" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+<center>
 > Rob Wells, Ph.D., University of Arkansas, Fayetteville, AR
-> ---
+> Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
+> Thomas Dial, Bureau of Economic Analysis, Washington, DC
 
-**This a 1 hour hands-on session will show journalists how to retrieved and analyze regional GDP data and build basic maps with their findings.**
+------------------------------------------------------------------------
+
+**This 1 hour hands-on session will show journalists how to retrieve and analyze regional GDP data and build basic maps with their findings.**
 
 Learning Outcome: Journalists will learn to retrieve customized economic data for their own cities, counties or states and the steps to put it on a basic map and an interactive chart. We will use Google Sheets and Tableau Public.
 
 If you don't have Tableau Public yet, here is the download link. We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
 
-> <https://public.tableau.com/en-us/s/>&lt;
+> <https://public.tableau.com/en-us/s/>
 
 Part 1: Storytelling with Local GDP Data
 ----------------------------------------
 
 This section will analyze the storytelling possibilities with the Gross Domestic Product by Metropolitan Area data.
-&gt; <https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm>
+
+> <https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm>
 
 Describe the data set
-&gt; Gross domestic product (GDP) by metropolitan area is the sub-state counterpart of the Nation's gross domestic product (GDP), the Bureau's featured and most comprehensive measure of U.S. economic activity. GDP by metropolitan area is derived as the sum of the GDP originating in all the industries in the metropolitan area.
+
+> Gross domestic product (GDP) by metropolitan area is the sub-state counterpart of the Nation's gross domestic product (GDP), the Bureau's featured and most comprehensive measure of U.S. economic activity. GDP by metropolitan area is derived as the sum of the GDP originating in all the industries in the metropolitan area.
 
 > Contributions to growth are an industry's contribution to the state's overall percent change in real GDP. The contributions are additive and can be summed to the state's overall percent change. The statistics of GDP by metropolitan area released today are consistent with statistics of GDP by state released May 11, 2017.
 
 > GDP at chained volume measure is adjusted for the effect of inflation to give a measure of ‘real GDP’.
 
-Frequency of publication
-&gt; This data series lags significantly. We are working with 2016 data, the most recent available, which was released September 20, 2017. But it is still the best you can get and you can't beat the price.
+![](Images-Sabew/Interactive%20Data%20Tables.jpg)
 
-Limitations and weirdness of the data
-&gt; TBD - Add here
+Data limitations
+
+> This data series lags significantly. We are working with 2016 data, the most recent available, which was released September 20, 2017.
+
+> But it is still the best you can get and you can't beat the price.
 
 ------------------------------------------------------------------------
 
@@ -67,10 +76,13 @@ Contributions to Percent Change in Real Gross Domestic Product (GDP) by Metropol
 
 Note the first column is the percentage change growth we saw in the Table 2. So that's a handy reference.
 
-Limitations and weirdness of the data
-&gt; You may see a notation (D) in some cells. The footnote says: "(D) Not shown to avoid disclosure of confidential information, but the estimates for this item are included in the totals." What that means is this particularly industry is pretty small or has just a few dominant actors, so disclosure of the information would reveal confidential business information. Which is no fun whatsoever.
+Data limitations - weirdness
 
-**Wells will record this later ** Do a quick screen video on how I cleaned the data and reorganized it. 1) Create a data dictionary tab. 2) Unmerge the cells. 3) first row for headers 4) create a new tab, create a year column. open 2015 data. copy in. year column. merge. --data cleaning: split the state off into a new column --get the data out of these weird merged columns
+> You may see a notation (D) in some cells. The footnote says: "(D) Not shown to avoid disclosure of confidential information, but the estimates for this item are included in the totals." What that means is this particularly industry is pretty small or has just a few dominant actors, so disclosure of the information would reveal confidential business information. Which is no fun whatsoever.
+
+Data Cleaning &gt; The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
+
+> <https://www.youtube.com/watch?v=5bS-GKvFzBk>
 
 And here is the end result in a Google Sheet. Add this sheet to your Google Drive or download it as a spreadsheet on your computer.
 
@@ -78,7 +90,9 @@ And here is the end result in a Google Sheet. Add this sheet to your Google Driv
 
 #### Step 2: Basic Interactive Chart
 
-For this part, we will use Tableau Public to produce charts and a map. Download the app if you haven't already ![](Images-Sabew/Tableau%20Public.jpeg)
+For this part, we will use Tableau Public to produce charts and a map. Download the app if you haven't already
+
+![](Images-Sabew/Tableau%20Public.jpeg)
 
 > <https://public.tableau.com/en-us/s/>
 
@@ -93,20 +107,21 @@ Tableau accepts many data sources. Under "To a Server" there's an option for Goo
 With the Google Sheets link, select Sheet 3 and drag it to the pane that says "Drag sheets here."
 ![](Images-Sabew/Tableau%20data.jpeg)
 
--- Clean the data with the "Data Interpreter." Click the box is right above the sheet listing.
+Clean the data with the "Data Interpreter." Click the box is right above the sheet listing.
 
 **Now, look at the data.**
 
 "Metro Area" should be the only thing in text: blue "ABC." That's a dimension. The rest should be with a green \# sign. Those are measures. The difference is crucial in Tableau. ![](Images-Sabew/dimensions.jpeg)
 
--- We're ready. Click on "Sheet 1" in lower lefthand corner.
+We're ready. Click on "Sheet 1" in lower lefthand corner.
 ![](Images-Sabew/Sheet1.jpeg)
 
---Welcome to a Tableau Worksheet ![](Images-Sabew/Tableau%20worksheet.jpeg)
+Welcome to a Tableau Worksheet
 
--- Drag the "Metro Area"" dimension to Columns
--- Drag the "Percent Change in real GDP" measure to Rows
----
+![](Images-Sabew/Tableau%20worksheet.jpeg)
+
+1.  Drag the "Metro Area"" dimension to Columns
+2.  Drag the "Percent Change in real GDP" measure to Rows
 
 You should have an image like this:
 ![](Images-Sabew/tableau%20image1.jpeg)
@@ -208,7 +223,10 @@ Thank you.
 Follow up questions:
 --------------------
 
-**Jeannine Aversa - <Jeannine.Aversa@bea.gov> **
 **Rob Wells - <rswells@uark.edu> or @rwells1961**
+**Jeannine Aversa - <Jeannine.Aversa@bea.gov> **
+**Thomas Dial - <Thomas.Dail@bea.gov> **
+
+<img src="Images-Sabew/Bea logo.jpg" width="250" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
 
 --30--
