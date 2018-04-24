@@ -2,12 +2,16 @@ Visualizing the State & Local Economy
 ================
 
 <center>
-<img src="Images-Sabew/Bea logo.jpg" width="225" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+<img src="Images-Sabew/Bea logo.jpg" width="225" height="200" />
 <center>
+<center>
+<img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+<center>
+Presenters
+==========
+
 -   Rob Wells, Ph.D., University of Arkansas, Fayetteville, AR
-
 -   Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
-
 -   Thomas Dail, Bureau of Economic Analysis, Washington, DC
 
 ------------------------------------------------------------------------
@@ -15,6 +19,9 @@ Visualizing the State & Local Economy
 **This 1 hour hands-on session will show journalists how to retrieve and analyze regional GDP data and build basic maps with their findings.**
 
 Learning Outcome: Journalists will learn to retrieve customized economic data for their own cities, counties or states and the steps to put it on a basic map and an interactive chart. We will use Google Sheets and Tableau Public.
+
+Download Tableau Public
+-----------------------
 
 If you don't have Tableau Public yet, here is the download link. We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
 
