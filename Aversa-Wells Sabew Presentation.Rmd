@@ -8,7 +8,7 @@ output: github_document
 
 <center><img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" /><center>   
 
-
+>
 
 #Presenters
 
@@ -247,7 +247,9 @@ Chart the rate of industry-specific sector growth for your community.
   
 Figure out some other visualization!
 
-Thank you.
+Thank you.  
+
+>
 
 Follow up questions:   
 --
