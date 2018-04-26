@@ -141,7 +141,7 @@ Launch the app.
 
 Tableau accepts many data sources. Under "To a Server" there's an option for Google Sheets. Or if you have downloaded the cleaned spreadsheet to your computer, you can link to it via Excel.   
 
-> <https://docs.google.com/spreadsheets/d/18AgvFvHJruJUrU6LLbdI162Tjyfi4GdV0iBXgYg3IkY/edit#gid=910642061> 
+> [Cleaned Data: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/18AgvFvHJruJUrU6LLbdI162Tjyfi4GdV0iBXgYg3IkY/edit#gid=910642061){target="_blank"}
 
 With the Google Sheets link, select Sheet 3 and drag it to the pane that says "Drag sheets here."    
 ![ ](Images-Sabew/Tableau data.jpeg)
@@ -210,7 +210,7 @@ Welcome to a Tableau Worksheet
 
 * Your chart should look like this:
 
-> <https://public.tableau.com/views/SabewTable1/Sheet1?:embed=y&:display_count=yes&publish=yes>
+> [Tableau Chart: "CNTL" + click for a New Tab](https://public.tableau.com/views/SabewTable1/Sheet1?:embed=y&:display_count=yes&publish=yes){target="_blank"}
 
 <br>
 <br>
