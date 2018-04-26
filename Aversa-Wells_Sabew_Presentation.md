@@ -20,12 +20,18 @@ Presenters
 
 Learning Outcome: Journalists will learn to retrieve customized economic data for their own cities, counties or states and the steps to put it on a basic map and an interactive chart. We will use Google Sheets and Tableau Public.
 
+<br>
+----
+
 Download Tableau Public
 -----------------------
 
 If you don't have Tableau Public yet, here is the download link. We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
 
 > <https://public.tableau.com/en-us/s/>
+
+<br>
+----
 
 Part 1: Storytelling with Local GDP Data
 ----------------------------------------
@@ -50,7 +56,7 @@ Data limitations
 
 > But it is still the best you can get and you can't beat the price.
 
-------------------------------------------------------------------------
+<br> <br> --
 
 #### Step 1: Retrieve the Data
 
@@ -181,7 +187,12 @@ Welcome to a Tableau Worksheet
 
 #### Step 3: Basic Map
 
-We'll use the same data for a map. First, we have to convert the Dimension "Metro Area" to geographic data, or we need to "Geocode" this dimension. &gt; Click on "Metro Area" down arrow, Select "Geographic Role" and then Select "CBSA/MSA" - this converts the text of Metro Area into data for mapping.
+We'll use the same data for a map. First, we have to convert the Dimension "Metro Area" to geographic data, or we need to "Geocode" this dimension.
+
+-   Geocode Data
+    -   Click on "Metro Area" down arrow
+    -   Select "Geographic Role" and then Select "CBSA/MSA"
+        -   this converts the text of Metro Area into data for mapping.
 
 ![](Images-Sabew/Geocode1.jpeg)
 
