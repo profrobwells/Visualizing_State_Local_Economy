@@ -60,10 +60,10 @@ Click here to download the Excel tables
 
 > <https://www.bea.gov/newsreleases/regional/gdp_metro/2017/xls/gdp_metro0917.xlsx>
 
-Let's see what we have.
--- Three tables of data.
--- 382 metropolitan areas.
--- 13 industrial sectors.
+-   Let's see what we have.
+    -   Three tables of data.
+    -   382 metropolitan areas.
+    -   13 industrial sectors.
 
 Walk through the tables:
 
@@ -132,45 +132,50 @@ Welcome to a Tableau Worksheet
 1.  Drag the "Metro Area"" dimension to Columns
 2.  Drag the "Percent Change in real GDP" measure to Rows
 
-You should have an image like this:
+-   You should have an image like this:
+
 ![](Images-Sabew/tableau%20image1.jpeg)
 
-This is your basic graph of GDP growth by metro area in from 2015 to 2016. Let's sort it, high to low.
+-   This is your basic graph of GDP growth by metro area in from 2015 to 2016.
+-   Let's sort it, high to low.
+
 ![](Images-Sabew/Tableau%20Arrow.jpeg)
 
-To do this, hover your mouse over the Y axis and a small arrow icon will emerge. Click it and it sorts your sheet.
+-   To do this, hover your mouse over the Y axis and a small arrow icon will emerge. Click it and it sorts your sheet.
 
 ![](Images-Sabew/Tableau%20Image1%20Sorted.jpeg)
 
--- Filter to Fayetteville and Little Rock
+-   Filter to Fayetteville and Little Rock
 
-To filter, click on the down arrow on blue pill in columns, "Metro Area." Click "Show Filter." A list of all 382 metro areas appears in a box on the sheet.
+    -   To filter, click on the down arrow on blue pill in columns, "Metro Area." Click "Show Filter." A list of all 382 metro areas appears in a box on the sheet.
 
-Configure the filter by clicking "Multiple Values Dropdown." ![](Images-Sabew/Tableau%20dropdown.jpeg)
+-   Configure the filter by clicking "Multiple Values Dropdown."
 
-Deselect "All" so nothing is checked. Then select:
+![](Images-Sabew/Tableau%20dropdown.jpeg)
 
--- Fayetteville
--- Fort Smith
--- Hot Springs
--- Jonesboro
--- Little Rock
--- Pine Bluff
--- U.S. metropolitan areas
+-   Deselect "All" so nothing is checked. Then select:
+
+    -   Fayetteville
+    -   Fort Smith
+    -   Hot Springs
+    -   Jonesboro
+    -   Little Rock
+    -   Pine Bluff
+    -   U.S. metropolitan areas
 
 > You now have a GDP growth chart for the metro areas in Arkansas with a U.S. comparison. You can do the same with your state later on.
 
-Tweak the chart.
+-   Tweak the chart.
 
--- Drag "Percent Change in real GDP" to Color in the Marks Column near the worksheet. You can select a custom color palette by clicking on colors.
+    -   Drag "Percent Change in real GDP" to Color in the Marks Column near the worksheet. You can select a custom color palette by clicking on colors.
 
--- Double Click on the heading, "Sheet 1" and type in a headline. Use the formatting tools to center.
+    -   Double Click on the heading, "Sheet 1" and type in a headline. Use the formatting tools to center.
 
--- Drag the Filter and Color legend to just above the X axis.
+    -   Drag the Filter and Color legend to just above the X axis.
 
--- Tweak the labels. Cntl + click on Y axis, format numbers to single decimal, add % as suffix. Next, click Labels in the Marks card, click box "Show Mark Labels." Numbers appear on the bars. Then cntl + click on a number, format to single decimal with a % as suffix.
+    -   Tweak the labels. Cntl + click on Y axis, format numbers to single decimal, add % as suffix. Next, click Labels in the Marks card, click box "Show Mark Labels." Numbers appear on the bars. Then cntl + click on a number, format to single decimal with a % as suffix.
 
-Your chart should look like this:
+-   Your chart should look like this:
 
 > <https://public.tableau.com/views/SabewTable1/Sheet1?:embed=y&:display_count=yes&publish=yes>
 
