@@ -230,13 +230,13 @@ Figure out some other visualization!
 Thank you.
 
 Follow up questions:
---------------------
+====================
 
--   **Rob Wells - <rswells@uark.edu> or @rwells1961**
+-   Rob Wells - <rswells@uark.edu> or @rwells1961
 
--   **Jeannine Aversa - <Jeannine.Aversa@bea.gov> **
+-   Jeannine Aversa - <Jeannine.Aversa@bea.gov>
 
--   **Thomas Dail - <Thomas.Dail@bea.gov> **
+-   Thomas Dail - <Thomas.Dail@bea.gov>
 
 --
 
