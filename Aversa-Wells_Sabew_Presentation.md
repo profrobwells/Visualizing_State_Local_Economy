@@ -26,7 +26,7 @@ Learning Outcome: Journalists will learn to retrieve customized economic data fo
 Download Tableau Public
 -----------------------
 
-> <https://public.tableau.com/en-us/s/>
+> <a href="https://public.tableau.com/en-us/s/" target="_blank">Tableau Download</a>
 
 We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
 
@@ -40,7 +40,7 @@ Part 1: Storytelling with Local GDP Data
 
 This section will analyze the storytelling possibilities with the Gross Domestic Product by Metropolitan Area data.
 
-> <https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm>
+> <a href="https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm" target="_blank">GDP Release</a>
 
 Describe the data set
 
