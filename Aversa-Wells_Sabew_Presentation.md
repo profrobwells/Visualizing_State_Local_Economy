@@ -26,7 +26,7 @@ Learning Outcome: Journalists will learn to retrieve customized economic data fo
 Download Tableau Public
 -----------------------
 
-> <a href="https://public.tableau.com/en-us/s/" target="_blank">Tableau Download</a>
+> <a href="https://public.tableau.com/en-us/s/" target="_blank">Tableau Download: &quot;CNTL&quot; + click for a New Tab</a>
 
 We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
 
@@ -40,7 +40,7 @@ Part 1: Storytelling with Local GDP Data
 
 This section will analyze the storytelling possibilities with the Gross Domestic Product by Metropolitan Area data.
 
-> <a href="https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm" target="_blank">GDP Release</a>
+> <a href="https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm" target="_blank">GDP Release: &quot;CNTL&quot; + click for a New Tab</a>
 
 Describe the data set
 
@@ -65,9 +65,7 @@ Data limitations
 
 ![](Images-Sabew/Bea%20-%20GDP1.jpeg)
 
-Click here to download the Excel tables
-
-> <https://www.bea.gov/newsreleases/regional/gdp_metro/2017/xls/gdp_metro0917.xlsx>
+> <a href="https://www.bea.gov/newsreleases/regional/gdp_metro/2017/xls/gdp_metro0917.xlsx" target="_blank">Click here to download the Excel tables: &quot;CNTL&quot; + click for a New Tab</a>
 
 -   Let's see what we have.
     -   Three tables of data.
@@ -107,11 +105,11 @@ Data limitations - weirdness
 Data Cleaning
 &gt; The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
 
-> <https://www.youtube.com/watch?v=5bS-GKvFzBk>
+> <a href="https://www.youtube.com/watch?v=5bS-GKvFzBk" target="_blank">Video on Excel Data Cleaning: &quot;CNTL&quot; + click for a New Tab</a>
 
 And here is the end result in a Google Sheet. Add this sheet to your Google Drive or download it as a spreadsheet on your computer.
 
-> <https://docs.google.com/spreadsheets/d/18AgvFvHJruJUrU6LLbdI162Tjyfi4GdV0iBXgYg3IkY/edit#gid=910642061>
+> <a href="https://docs.google.com/spreadsheets/d/18AgvFvHJruJUrU6LLbdI162Tjyfi4GdV0iBXgYg3IkY/edit#gid=910642061" target="_blank">Cleaned Data: &quot;CNTL&quot; + click for a New Tab</a>
 
 <br> <br> <br>
 ---
