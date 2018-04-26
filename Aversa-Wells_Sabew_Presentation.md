@@ -1,11 +1,11 @@
 Visualizing the State & Local Economy
 ================
 
---
+------------------------------------------------------------------------
 
 <img src="Images-Sabew/Bea logo.jpg" width="250" height="200" /> <img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
 
---
+------------------------------------------------------------------------
 
 Presenters
 ==========
@@ -26,9 +26,11 @@ Learning Outcome: Journalists will learn to retrieve customized economic data fo
 Download Tableau Public
 -----------------------
 
-If you don't have Tableau Public yet, here is the download link. We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
-
 > <https://public.tableau.com/en-us/s/>
+
+We'll configure this in the second part of the presentation, but you can start the download now. It is a 400 mb download that will take 1.46 GB on your hard drive.
+
+Also, you will need to create a Tableau Public account.
 
 <br>
 ----
@@ -56,7 +58,8 @@ Data limitations
 
 > But it is still the best you can get and you can't beat the price.
 
-<br> <br> --
+<br> <br>
+---
 
 #### Step 1: Retrieve the Data
 
@@ -81,9 +84,15 @@ This is cool because it has the percentage change growth, 2015/2016, and ranks i
 
 And Fayetteville makes \#38 on the list, with 3.9% growth.
 
+<br>
+----
+
 > **Question: What is the benchmark metric?**
 
 <!--Answer: US Metro areas is 1.7% growth. Is your region above or below that benchmark?-->
+<br>
+----
+
 We will do the map exercise with Table 2 in a bit. But we have to look at Table 3.
 
 **Table 3:** This is where we get the industry data.
@@ -95,13 +104,17 @@ Data limitations - weirdness
 
 > You may see a notation (D) in some cells. The footnote says: "(D) Not shown to avoid disclosure of confidential information, but the estimates for this item are included in the totals." What that means is this particularly industry is pretty small or has just a few dominant actors, so disclosure of the information would reveal confidential business information. Which is no fun whatsoever.
 
-Data Cleaning &gt; The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
+Data Cleaning
+&gt; The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
 
 > <https://www.youtube.com/watch?v=5bS-GKvFzBk>
 
 And here is the end result in a Google Sheet. Add this sheet to your Google Drive or download it as a spreadsheet on your computer.
 
 > <https://docs.google.com/spreadsheets/d/18AgvFvHJruJUrU6LLbdI162Tjyfi4GdV0iBXgYg3IkY/edit#gid=910642061>
+
+<br> <br> <br>
+---
 
 #### Step 2: Basic Interactive Chart
 
@@ -185,6 +198,9 @@ Welcome to a Tableau Worksheet
 
 > <https://public.tableau.com/views/SabewTable1/Sheet1?:embed=y&:display_count=yes&publish=yes>
 
+<br> <br> <br>
+---
+
 #### Step 3: Basic Map
 
 We'll use the same data for a map. First, we have to convert the Dimension "Metro Area" to geographic data, or we need to "Geocode" this dimension.
@@ -220,26 +236,27 @@ Notice in Measures that Latitude and Longitude measures are now created.
 > -   Add Metro area names. Drag "Metro Area" to Label on Marks card. Click the Options box to allow labels to overlap
 > -   Format labels, drag search box, legend to bottom, write a headline
 
+<br>
+----
+
 **Your finished map should look like this:**
 
 ![](Images-Sabew/Finished%20Map.jpeg)
 
-Questions?
+<br>
+----
 
-If you are good with this tutorial, then do the following:
-
-Create a chart and map for your local community. Chart the rate of industry-specific sector growth for your community.
-
--- Arts, entertainment, recreation, accommodation, and food services
--- Construction
--- Durable-goods manufacturing
--- Educational services, health care, and social assistance
--- Finance, insurance, real estate, rental, and leasing
--- Government
--- Information
--- Professional and business services
--- Trade
--- Transportation and utilities
+-   If you are good with this tutorial, then create a chart and map for your local community. Chart the rate of industry-specific sector growth by chooings one or more of the following:
+    -   Arts, entertainment, recreation, accommodation, and food services
+    -   Construction
+    -   Durable-goods manufacturing
+    -   Educational services, health care, and social assistance
+    -   Finance, insurance, real estate, rental, and leasing
+    -   Government
+    -   Information
+    -   Professional and business services
+    -   Trade
+    -   Transportation and utilities
 
 Figure out some other visualization!
 
