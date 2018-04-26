@@ -61,7 +61,7 @@ Data limitations
 <br> <br>
 ---
 
-#### Step 1: Retrieve the Data
+### Step 1: Retrieve the Data
 
 ![](Images-Sabew/Bea%20-%20GDP1.jpeg)
 
@@ -103,7 +103,8 @@ Data limitations - weirdness
 > You may see a notation (D) in some cells. The footnote says: "(D) Not shown to avoid disclosure of confidential information, but the estimates for this item are included in the totals." What that means is this particularly industry is pretty small or has just a few dominant actors, so disclosure of the information would reveal confidential business information. Which is no fun whatsoever.
 
 Data Cleaning
-&gt; The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
+
+> The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
 
 > <a href="https://www.youtube.com/watch?v=5bS-GKvFzBk" target="_blank">Video on Excel Data Cleaning: &quot;CNTL&quot; + click for a New Tab</a>
 
@@ -114,7 +115,7 @@ And here is the end result in a Google Sheet. Add this sheet to your Google Driv
 <br> <br> <br>
 ---
 
-#### Step 2: Basic Interactive Chart
+### Step 2: Basic Interactive Chart
 
 For this part, we will use Tableau Public to produce charts and a map. Download the app if you haven't already
 
@@ -137,12 +138,12 @@ Clean the data with the "Data Interpreter." Click the box is right above the she
 
 **Now, look at the data.**
 
-"Metro Area" should be the only thing in text: blue "ABC." That's a dimension. The rest should be with a green \# sign. Those are measures. The difference is crucial in Tableau. ![](Images-Sabew/dimensions.jpeg)
+"Metro Area" and "State" should be the only things in text: Metro area is a blue "ABC." That's a dimension. The state is a blue Globe. That's a geographic field. The rest should be with a green \# sign. Those are measures. The difference is crucial in Tableau. ![](Images-Sabew/dimensions.jpeg)
 
 We're ready. Click on "Sheet 1" in lower lefthand corner.
 ![](Images-Sabew/Sheet1.jpeg)
 
-Welcome to a Tableau Worksheet
+**Welcome to a Tableau Worksheet**
 
 ![](Images-Sabew/Tableau%20worksheet.jpeg)
 
@@ -166,11 +167,11 @@ Welcome to a Tableau Worksheet
 
     -   To filter, click on the down arrow on blue pill in columns, "Metro Area." Click "Show Filter." A list of all 382 metro areas appears in a box on the sheet.
 
--   Configure the filter by clicking "Multiple Values Dropdown."
+-   Configure the filter by clicking a down arrow to the right of "Metro Area." Select the option "Multiple Values Dropdown."
 
 ![](Images-Sabew/Tableau%20dropdown.jpeg)
 
--   Deselect "All" so nothing is checked. Then select:
+-   Deselect "All" so nothing is checked. Then search for the following and individually select:
 
     -   Fayetteville
     -   Fort Smith
@@ -186,15 +187,23 @@ Welcome to a Tableau Worksheet
 
     -   Drag "Percent Change in real GDP" to Color in the Marks Column near the worksheet. You can select a custom color palette by clicking on colors.
 
-    -   Double Click on the heading, "Sheet 1" and type in a headline. Use the formatting tools to center.
+    -   Double Click on the heading, "Sheet 1" and type in a headline. I typed "Fayetteville leads Arkansas GDP Growth in 2016 Source: Bureau of Economic Analysis." Use the formatting tools to center.
 
-    -   Drag the Filter and Color legend to just above the X axis.
+    -   Drag "Percent Change in real GDP" to the "Label" icon in the Marks box. This is to the left of the chart. Numbers will appear above the bars on the chart.
 
-    -   Tweak the labels. Cntl + click on Y axis, format numbers to single decimal, add % as suffix. Next, click Labels in the Marks card, click box "Show Mark Labels." Numbers appear on the bars. Then cntl + click on a number, format to single decimal with a % as suffix.
+    -   Format the numbers and legend. Look at the Marks card. Find the green pill representing the label "Sum(Percent Change in Real GDP)." Click the down arrow in this label. Click Format.
+
+    -   Format the numbers, continued: The Format pane appears to the left. Under "Default," select "Numbers." Then select "Number - Custom." Select two decimal places and put a % sign in the suffix.
+
+    -   Format the Y axis legend. Left click on the Y axis to see menu. Select "Format." See the formatting pane on left: select "Axis." On "Scale," select no decimals and put a % sign in the suffix.
+
+    -   Drag the "Metro Area" Filter and then the Color legend to just below the X axis.
+
+    -   Rename the tab "Sheet 1" to "Arkansas GDP"
 
 -   Your chart should look like this:
 
-> <a href="https://public.tableau.com/views/SabewTable1/Sheet1?:embed=y&amp;:display_count=yes&amp;publish=yes" target="_blank">Tableau Chart: &quot;CNTL&quot; + click for a New Tab</a>
+> <a href="https://public.tableau.com/profile/rob.wells#!/vizhome/SabewTable1/ArkansasGDP?publish=yes" target="_blank">Tableau Chart: &quot;CNTL&quot; + click for a New Tab</a>
 
 <br> <br> <br>
 ---
