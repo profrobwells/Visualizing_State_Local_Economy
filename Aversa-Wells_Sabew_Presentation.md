@@ -7,6 +7,16 @@ Visualizing the State & Local Economy
 
 ------------------------------------------------------------------------
 
+**Hotel Wifi: HILTON\_MEETINGS**
+**Coupon / promotion code: Bankrate **
+
+**Today's Presentation**
+
+<http://bit.do/sabewdata>
+=========================
+
+<br>
+
 Presenters
 ==========
 
