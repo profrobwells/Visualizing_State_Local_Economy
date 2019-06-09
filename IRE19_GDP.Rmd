@@ -135,7 +135,7 @@ Data limitations - weirdness
 
 Data Cleaning 
 
-> The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
+> The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, states were split off into a new column, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself:
 
 > [Video on Excel Data Cleaning: "CNTL" + click for a New Tab](https://www.youtube.com/watch?v=5bS-GKvFzBk){target="_blank"}
 
@@ -164,58 +164,72 @@ Tableau accepts many data sources. Under "To a Server" there's an option for Goo
 
   > [Cleaned Data: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1FBV9eQ18zNHk56pQxcDs-Jz8P3wywhcFeUo6UD-rtqs/edit?usp=sharing){target="_blank"}
 
-With the Google Sheets link, select Sheet 3 and drag it to the pane that says "Drag sheets here."    
-![ ](Images-Sabew/Tableau data.jpeg)
+With the Google Sheets link, select **Table3Cleaned** and drag it to the pane that says "Drag sheets here."     
+<br>    
 
+![ ](Images-Sabew/Tableau data.jpeg)
+<br>
+<br>  
 Clean the data with the "Data Interpreter." Click the box is right above the sheet listing.  
 
 **Now, look at the data.**  
 
 "Metro Area" and "State" should be the only things in text: Metro area is a blue "ABC." That's a dimension. The state is a blue Globe. That's a geographic field. The rest should be with a green # sign. Those are measures. The difference is crucial in Tableau.
 ![ ](Images-Sabew/dimensions.jpeg)
-
-We're ready. Click on "Sheet 1" in lower lefthand corner.    
+<br>
+<br>  
+We're ready. Click on "Sheet 1" in lower lefthand corner. 
+<br>
 ![ ](Images-Sabew/Sheet1.jpeg)  
 
-
+<br>
+<br>  
 **Welcome to a Tableau Worksheet**  
+<br>
 
 ![ ](Images-Sabew/Tableau worksheet.jpeg)
-
+<br>
+<br>  
 1) Drag the "Metro Area"" dimension to Columns  
 2) Drag the "Percent Change in real GDP" measure to Rows  
 
 * You should have an image like this:   
+<br>
 
-![ ](Images-Sabew/tableau image1.jpeg)
-
-* This is your basic graph of GDP growth by metro area in from 2015 to 2016.  
+![ ](Images-Sabew/tableau_image1.png)
+<br>
+<br>  
+* This is your basic graph of GDP growth by metro area in from 2016 to 2017.  
 * Let's sort it, high to low.   
-
-![ ](Images-Sabew/Tableau Arrow.jpeg)
-
+<br>
+  
+![ ](Images-Sabew/Tableau_Arrow.png)
+<br>
+<br>  
 * To do this, hover your mouse over the Y axis and a small arrow icon will emerge. Click it and it sorts your sheet. 
-
-![ ](Images-Sabew/Tableau Image1 Sorted.jpeg)
-
+<br>  
+![ ](Images-Sabew/Tableau_Image1_Sorted2019.png)
+<br>
+<br>  
 * Filter to Fayetteville and Little Rock   
 
     + To filter, click on the down arrow on blue pill in columns, "Metro Area." Click "Show Filter." A list of all 382 metro areas appears in a box on the sheet.
 
 * Configure the filter by clicking a down arrow to the right of "Metro Area." Select the option "Multiple Values Dropdown."  
-
+<br>  
 ![ ](Images-Sabew/Tableau dropdown.jpeg)
-
+<br>
+<br>  
 * Deselect "All" so nothing is checked. Then search for the following and individually select:  
 
     + Fayetteville  
     + Fort Smith  
     + Hot Springs     
     + Jonesboro     
-    + Little Rock   
+    + Little Rock-North Little Rock-Conway   
     + Pine Bluff     
     + U.S. metropolitan areas   
-
+<br>  
 
 > You now have a GDP growth chart for the metro areas in Arkansas with a U.S. comparison. You can do the same with your state later on.   
 
@@ -223,7 +237,7 @@ We're ready. Click on "Sheet 1" in lower lefthand corner.
 
     + Drag "Percent Change in real GDP" to Color in the Marks Column near the worksheet. You can select a custom color palette by clicking on colors.
 
-    + Double Click on the heading, "Sheet 1" and type in a headline. I typed "Fayetteville leads Arkansas GDP Growth in 2016
+    + Double Click on the heading, "Sheet 1" and type in a headline. I typed "Arkansas' Cities Lag U.S. in 2017 GDP Growth
 Source: Bureau of Economic Analysis." Use the formatting tools to center. 
     
     + Drag "Percent Change in real GDP" to the "Label" icon in the Marks box. This is to the left of the chart. Numbers will appear above the bars on the chart.
@@ -232,16 +246,18 @@ Source: Bureau of Economic Analysis." Use the formatting tools to center.
     
     + Format the numbers, continued: The Format pane appears to the left. Under "Default," select "Numbers." Then select "Number - Custom." Select two decimal places and put a % sign in the suffix.
     
-    + Format the Y axis legend. Left click on the Y axis to see menu. Select "Format." See the formatting pane on left: select "Axis." On "Scale," select no decimals and put a % sign in the suffix.
+    + Format the Y axis legend. Left click on the Y axis to see menu. Select "Format." See the formatting pane on left: select "Axis." On "Scale," select "Numbers." Then select "Number - Custom." Select no decimals and put a % sign in the suffix.
 
     + Drag the "Metro Area" Filter and then the Color legend to just below the X axis.   
+    
+    + Drag right border out to expand the chart. Mouse over right edge to find the graphic.
     
     + Rename the tab "Sheet 1" to "Arkansas GDP"
 
 
 * Your chart should look like this:
 
-> [Tableau Chart: "CNTL" + click for a New Tab](https://public.tableau.com/profile/rob.wells#!/vizhome/SabewTable1/ArkansasGDP?publish=yes){target="_blank"}
+> [Tableau Chart: "CNTL" + click for a New Tab](https://public.tableau.com/views/IRE19_GDPVisualizingtheStateLocalEconomy/ArkansasGDP?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link){target="_blank"}
 
 <br>
 <br>
