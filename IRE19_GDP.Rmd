@@ -273,7 +273,7 @@ We'll use the same data for a map.
 First, we have to convert the Dimension "Metro Area" to geographic data, or we need to "Geocode" this dimension. 
 
 * Geocode Data
-    + Click on "Metro Area" down arrow  
+    + Click on "State_Metro" down arrow  
     + Select "Geographic Role" and then Select "CBSA/MSA" 
         - this converts the text of Metro Area into data for mapping.
 
@@ -284,19 +284,19 @@ Notice in Measures that Latitude and Longitude measures are now created.
 
 **Follow These Steps In This Order:**   
 
->* Click on "new worksheet" tab at lower right. It creates Sheet 2.    
-  + Drag Longtidue to Columns, Latitude to Rows    
+>* Click on "new worksheet" tab at lower left. It creates Sheet 2.    
+  + Drag Longitude to Columns, Latitude to Rows    
   + In upper right "Show Me" menu, click on the map icon. A grayed out world map appears.    
-  + Drag "Metro Area" to the sheet. A U.S. map appears with blue dots.   
+  + Drag "State_Metro" to the sheet. A U.S. map appears with blue dots.   
   
   
 >*  Filter "Metro Area" blue pill in the Marks formatting box next to the sheet.   Click "Show Filter" and format the filter as "multiple values dropdown" as we had in the past.
   + Deselect "All" so nothing is checked. Then select:    
-       - Fayetteville     
-       - Fort Smith    
+       - Fayetteville-Springdale-Rogers     
+       - Fort Smith, AR-OK   
        - Hot Springs       
        - Jonesboro       
-       - Little Rock       
+       - Little Rock-North Little Rock-Conway      
        - Pine Bluff      
   
 >  
@@ -308,14 +308,16 @@ Notice in Measures that Latitude and Longitude measures are now created.
 
 <br>
 ---
+<br>
 **Your finished map should look like this:**  
-
-![ ](Images-Sabew/Finished Map.jpeg)
+<br>
+<br>
+![ ](Images-Sabew/Finished2017_Map.png)
 
 <br>
 ---
 * If you are good with this tutorial, then create a chart and map for your local community. Chart the rate of industry-specific sector growth by chooings one or more of the following:
-    + Arts, entertainment, recreation, accommodation, and food services         
+    + Arts, entertainment, recreation, accommodation, and food services   
     + Construction  
     + Durable-goods manufacturing   
     + Educational services, health care, and social assistance   
@@ -335,6 +337,8 @@ Thank you.
 #Follow up questions:   
 
 - Rob Wells - rswells@uark.edu or @rwells1961  
+
+To reach the Bureau of Economic Analysis:  
    
 - Jeannine Aversa - Jeannine.Aversa@bea.gov    
    
@@ -344,8 +348,11 @@ Thank you.
 --
 
    
-<img src="Images-Sabew/Bea logo.jpg" width="250" height="200" />
-<img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="200" height="200" />
+<img src="Images-Sabew/Bea logo.jpg" width="150" height="100" />
+<img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="100" height="100" />
+<img src="Images-Sabew/Reynolds logo2.jpg" width="150" height="200" />    
+
+
 
 --
 
