@@ -327,6 +327,13 @@ Notice in Measures that Latitude and Longitude measures are now created.
     + Professional and business services 
     + Trade   
     + Transportation and utilities   
+<br>     
+<br>   
+
+> [Use Tableau story for multiple perspectives. Here's an example of what you can do: "CNTL" + click for a New Tab](https://public.tableau.com/shared/THHKYTJC8?:display_count=yes&:origin=viz_share_link){target="_blank"}   
+
+<br>
+<br>
   
 Figure out some other visualization!
 
