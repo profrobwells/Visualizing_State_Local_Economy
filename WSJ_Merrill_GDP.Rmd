@@ -1,0 +1,457 @@
+---
+title: "Visualizing the State & Local Economy"
+output: html_document
+---
+
+#Show Me the Money
+##The Philip Merrill College of Journalism and The Wall Street Journal
+###Feb. 24, 2023
+
+<img src="Images-Sabew/MerrillLogo.png" width="400" height="200" />    
+<br>  
+<br>  
+
+---
+
+###**Today's Presentation**
+
+# <http://bit.do/XXXX>
+
+<br>
+
+**Presenter**
+
+- Rob Wells, Ph.D., Philip Merrill College of Journalism
+
+**Co-Authors**   
+
+- Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
+
+- Thomas Dail, Bureau of Economic Analysis, Washington, DC
+
+<br>
+<br>
+<img src="Images-Sabew/Bea logo.jpg" width="250" height="200" />
+<br>
+<br>
+--- 
+
+**This 1 hour hands-on session will show journalists how to retrieve and analyze regional GDP data and build basic maps with their findings.** 
+<br>
+<br>
+Learning Outcome: Journalists will learn to retrieve customized economic data for their own cities, counties or states and the steps to put it on a basic map and an interactive chart. We will use Google Sheets and Datarapper.
+
+<br>  
+
+<br>
+---
+
+#Storytelling with Employment Data
+
+In this exercise, we will find out how much the typical engineer makes versus the typical journalist.
+
+> [Check out the Maryland Occu[ational Employment and Wage Statistics GDP press release: "CNTL" + click for a New Tab](https://www.bls.gov/oes/current/oes_md.htm){target="_blank"}
+
+![ ](Images-Sabew/OES_1.png)
+
+Scroll down to the table, use the search box and type in "waiter." You'll see mean hourly wage for waiters in Maryland is ... ???
+
+![ ](Images-Sabew/OES_2.png)
+
+What is the median hourly wage for Chief Executives?
+What is the annual mean wage for Gambling Dealers?
+
+Let's work with the data ourselves. I've created a simplified version for this lesson that just focuses on Maryland
+
+> [Download the Maryland Occupational Employment and Wage Statistics: "CNTL" + click for a New Tab](https://www.bls.gov/oes/special.requests/oesm21st.zip){target="_blank"}
+
+
+What do these columns mean? Look for the data dictionary or field descriptions. To save time, I downloaded in separately and put it here.
+
+> [Look at field descriptions for Maryland Occupational Employment and Wage Statistics: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1pUo9reCv6OvN87EZvFeHYJVN9qM57GeR/edit?usp=sharing&ouid=102324743793755798467&rtpof=true&sd=true){target="_blank"}
+
+
+
+
+
+
+
+
+
+#Storytelling with Local GDP Data  
+
+GDP tells us if the economy is great or if it sucks.
+
+It's the Big Daddy of economic indicators.
+
+What is Gross Domestic Product? It measures the value of all final goods and services produced in the country in a year. 
+
+For example: that would be all of the stuff sold by Walmart and all of the beer sold by Liquor Barn and all of the gas pumped at Citgo, etc., AND A WHOLE LOT MORE, over a year.
+
+You get the idea.
+
+You can break it down to a state or a region, and also break it down into three month periods.
+
+As a reporter, you can use local GDP data to figure out what business sectors are doing well and which ones stink. It can lead you to excellent stories.
+
+This section will analyze the storytelling possibilities with the Gross Domestic Product by Metropolitan Area data.  
+
+
+> [Check out the local GDP press release: "CNTL" + click for a New Tab](https://www.bea.gov/newsreleases/regional/gdp_metro/gdp_metro_newsrelease.htm){target="_blank"}
+
+Describe the data set  
+
+>Gross domestic product (GDP) by metropolitan area is the sub-state counterpart of the Nation's gross domestic product (GDP), the Bureau's featured and most comprehensive measure of U.S. economic activity. GDP by metropolitan area is derived as the sum of the GDP originating in all the industries in the metropolitan area.  
+
+>Contributions to growth are an industry's contribution to the state's overall percent change in real GDP. The contributions are additive and can be summed to the state's overall percent change. The statistics of GDP by metropolitan area released today are consistent with statistics of GDP by state.
+
+>GDP at chained volume measure is adjusted for the effect of inflation to give a measure of ‘real GDP’.
+
+![ ](Images-Sabew/Interactive Data Tables.jpg)
+
+
+Data limitations
+
+> This data series lags significantly. We are working with 2021 data, the most recent available. 
+
+> But it is still the best you can get and you can't beat the price.  
+ 
+<br>
+<br>  
+
+
+##Step 1: Retrieve the Data 
+<br>
+<br> 
+![ ](Images-Sabew/BEA_GDP_2023_1.png)
+<br>
+<br> 
+
+> [Click here to download the Excel tables: "CNTL" + click for a New Tab](https://www.bea.gov/news/2022/gross-domestic-product-county-2021){target="_blank"}
+
+You should have a file names "lagdp1222.xlsx" downloaded.
+
+<br>
+
+* Let's see what we have.   
+    + One table of data.   
+    + 3,223 rows with county data.    
+    + 13 industrial sectors.  
+<br>
+<br> 
+Walk through the tables:
+
+**Table 1:** Basic GDP growth by metro, 2012-2017, and its rank nationally.   
+NYC is #1, Sebring, Fla. is #383. Houston is #7, Fayetteville, AR is #93.  
+
+
+**Table 2:** Inflation adjusted GDP, chained to 2009.   
+This is cool because it has the percentage change growth, 2015/2016, and ranks it. So Odessa, Texas makes the top of the list with 12.1 percent growth, a rate **nearly double that of China in 2017**. Don't believe me? Look it up: <https://data.worldbank.org/country/china>  
+
+Houston's growth was flat. Ranked #314
+And Fayetteville makes #57 on the list, with 3.4% growth. 
+
+<br>  
+---
+
+> **Question: What is the benchmark metric?**
+
+<!--Answer: US Metro areas is 2.1% growth. Is your region above or below that benchmark?--> 
+
+<br>  
+---
+
+We will do the map exercise with Table 2 in a bit. But we have to look at Table 3.
+
+**Table 3:** This is where we get the industry data.   
+Contributions to Percent Change in Real Gross Domestic Product (GDP) by Metropolitan Area, 2017)   
+
+Note the first column is the percentage change growth we saw in the Table 2. So that's a handy reference.
+
+<br>
+<br> 
+**Data limitations - weirdness** 
+
+> You may see a notation (D) in some cells. The footnote says: "(D) Not shown to avoid disclosure of confidential information, but the estimates for this item are included in the totals." What that means is this particularly industry is pretty small or has just a few dominant actors, so disclosure of the information would reveal confidential business information. Which is no fun whatsoever.
+
+**Data Cleaning** 
+
+> The Google sheet you have has been cleaned and modified so it will play well with Tableau. Basically, the BEA spreadsheet was cleaned to remove merged cells, states were split off into a new column, a data dictionary was created to keep track of our changes and new headers were created. Here is a 10-minute video on how to do this yourself, which you can watch later:
+
+> [Video on Excel Data Cleaning: "CNTL" + click for a New Tab](https://www.youtube.com/watch?v=5bS-GKvFzBk){target="_blank"}
+
+And here is the end result in a Google Sheet. Add this sheet to your Google Drive or download it as a spreadsheet on your computer.  
+
+> [Cleaned Data: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1FBV9eQ18zNHk56pQxcDs-Jz8P3wywhcFeUo6UD-rtqs/edit?usp=sharing){target="_blank"}
+
+<br>
+<br>
+<br>  
+
+
+#Step 2: Basic Interactive Chart
+
+<br>
+<br>
+#### Create a Datawrapper Account
+
+Datawrapper creates great charts and maps in the cloud, which you can use to embed in your stories. There's no software to install on your computer.
+
+> [I recommend you create a Datawrapper account: "CNTL" + click for a New Tab](https://app.datawrapper.de/signin?ref=/#/signin){target="_blank"}
+
+> [Try Datawrapper without an account: "CNTL" + click for a New Tab](https://app.datawrapper.de/create/chart){target="_blank"}
+
+
+For this part, we will use Tableau Public to produce charts and a map. Download the app if you haven't already  
+
+![ ](Images-Sabew/Tableau Public.jpeg)  
+
+> https://public.tableau.com/en-us/s/  
+
+> You will need to create a Tableau Public account.    
+
+Launch the app.  
+
+Tableau accepts many data sources. Under "To a Server" there's an option for Google Sheets. 
+Or if you have downloaded the cleaned spreadsheet to your computer, you can link to it via Excel.   
+
+  > [Cleaned Data: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1FBV9eQ18zNHk56pQxcDs-Jz8P3wywhcFeUo6UD-rtqs/edit?usp=sharing){target="_blank"}
+
+With the Google Sheets link, select **Table3Cleaned** and drag it to the pane that says "Drag sheets here."     
+<br>    
+
+![ ](Images-Sabew/Tableau data.jpeg)
+<br>
+<br>  
+
+> Clean the data with the "Data Interpreter." Click the box is right above the sheet listing.  
+
+**Now, look at the data.**  
+
+"Metro Area" and "State" should be the only things in text: Metro area is a blue "ABC." That's a dimension. The state is a blue Globe. That's a geographic field. The rest should be with a green # sign. Those are measures. The difference is crucial in Tableau.
+![ ](Images-Sabew/dimensions.jpeg)
+<br>
+<br>   
+
+> We're ready. Click on "Sheet 1" in lower lefthand corner.    
+
+
+<br>
+![ ](Images-Sabew/Sheet1.jpeg)  
+
+<br>
+<br>  
+
+> **Welcome to a Tableau Worksheet**   
+
+<br>
+
+![ ](Images-Sabew/Tableau worksheet.jpeg)
+<br>
+<br>  
+
+> 1) Drag the "Metro Area"" dimension to Columns   
+  2) Drag the "Percent Change in real GDP" measure to Rows    
+
+* You should have an image like this:   
+<br>
+
+![ ](Images-Sabew/tableau_image1.png)
+<br>
+<br>  
+* This is your basic graph of GDP growth by metro area in from 2016 to 2017.  
+
+
+> Let's sort it, high to low.   
+
+<br>
+  
+![ ](Images-Sabew/Tableau_Arrow.png)
+<br>
+<br>  
+
+>  To do this, hover your mouse over the Y axis and a small arrow icon will emerge. Click it and it sorts your sheet. There is also a sorting tool in the menu bar. 
+
+<br>  
+![ ](Images-Sabew/Tableau_Image1_Sorted2019.png)
+<br>
+<br>  
+
+> Filter to Arkansas Metro Areas   
+
+    + To filter, click on the down arrow on blue pill in columns, "Metro Area." Click "Show Filter." A list of all 382 metro areas appears in a box on the sheet.
+
+* Configure the filter by clicking a down arrow to the right of "Metro Area." Select the option "Multiple Values Dropdown."  
+<br>  
+![ ](Images-Sabew/Tableau dropdown.jpeg)
+<br>
+<br>  
+* Deselect "All" so nothing is checked. Then search for the following and individually select:  
+
+    + Fayetteville-Springdale-Rogers 
+    + Fort Smith  
+    + Hot Springs     
+    + Jonesboro     
+    + Little Rock-North Little Rock-Conway   
+    + Pine Bluff     
+    + U.S. metropolitan areas   
+<br>  
+
+> You now have a GDP growth chart for the metro areas in Arkansas with a U.S. comparison. You can do the same with your state later on.   
+
+
+> Pro Tip: **Duplicate and Iterate.** Duplicate the Arkansas sheet by left clicking on the sheet tab. Once copied, adjust the filter for your state or city. More on Duplicate and Iterate later.    
+
+
+* Tweak the chart.   
+
+    + Drag "Percent Change in real GDP" to Color in the Marks Column near the worksheet. You can select a custom color palette by clicking on colors.
+
+    + Double Click on the heading, "Sheet 1" and type in a headline. I typed "Northwest Arkansas Beats U.S. in 2017 GDP Growth
+Source: Bureau of Economic Analysis." Use the formatting tools to center. 
+    
+    + Drag "Percent Change in Real GDP" to the "Label" icon in the Marks box. This is to the left of the chart. Numbers will appear above the bars on the chart.
+    
+    + Format the numbers and legend. Look at the Marks card. Find the green pill representing the label "Sum(Percent Change in Real GDP)." Click the down arrow in this label. Click Format. 
+    
+    + Format the numbers, continued: The Format pane appears to the left. Under "Default," select "Numbers." Then select "Number - Custom." Select two decimal places and put a % sign in the suffix.
+    
+    + Format the Y axis legend. Left click on the Y axis to see menu. Select "Format." See the formatting pane on left: select "Axis." On "Scale," select "Numbers." Then select "Number - Custom." Select no decimals and put a % sign in the suffix.
+
+    + Drag the "Metro Area" Filter and then the Color legend to just below the X axis.   
+    
+    + Drag right border out to expand the chart. Mouse over right edge to find the graphic.
+    
+    + Rename the tab "Sheet 1" to "Arkansas GDP"
+
+
+* Your chart should look like this:
+
+> [Tableau Chart: "CNTL" + click for a New Tab](https://public.tableau.com/views/IRE19_GDPVisualizingtheStateLocalEconomy/ArkansasGDP?:embed=y&:display_count=yes&publish=yes&:origin=viz_share_link){target="_blank"}
+
+<br>
+<br>
+<br>  
+---  
+
+##Step 3: Basic Map
+
+We'll use the same data for a map.
+First, we have to convert the Dimension "Metro Area" to geographic data, or we need to "Geocode" this dimension. 
+
+* Geocode Data
+    + Click on "State_Metro" down arrow  
+    + Select "Geographic Role" and then Select "CBSA/MSA" 
+        - this converts the text of Metro Area into data for mapping.
+
+![ ](Images-Sabew/Geocode1.jpeg)
+
+
+Notice in Measures that Latitude and Longitude measures are now created. 
+
+**Follow These Steps In This Order:**   
+
+>* Click on "new worksheet" tab at lower left. It creates Sheet 2.    
+  + Drag Longitude to Columns, Latitude to Rows    
+  + In upper right "Show Me" menu, click on the map icon. A grayed out world map appears.    
+  + Drag "State_Metro" to the sheet. A U.S. map appears with blue dots.   
+  
+  
+>*  Filter "Metro Area" blue pill in the Marks formatting box next to the sheet.   Click "Show Filter" and format the filter as "multiple values dropdown" as we had in the past.
+  + Deselect "All" so nothing is checked. Then select:    
+       - Fayetteville-Springdale-Rogers     
+       - Fort Smith, AR-OK   
+       - Hot Springs       
+       - Jonesboro       
+       - Little Rock-North Little Rock-Conway      
+       - Pine Bluff      
+  
+>  
+  + Change "Automatic" in Marks Card. Click down arrow and select "Map." The blue metro areas will appear on the map.    
+  + Drag from Measures "Percent Change in real GDP" to the worksheet.     
+  + Bring up the data labels. Drag "Percent Change in real GDP" to Label box on  Marks card.     
+  + Add Metro area names. Drag "Metro Area" to Label on Marks card. Click the Options box to allow labels to overlap    
+  + Format labels, drag search box, legend to bottom, write a headline    
+
+<br>
+---
+<br>   
+
+###**Your finished map should look like this:**  
+<br>
+<br>
+![ ](Images-Sabew/Finished2017_Map.png)
+
+<br>
+---
+* If you are good with this tutorial, then create a chart and map for your local community. Chart the rate of industry-specific sector growth by chooings one or more of the following:
+    + Arts, entertainment, recreation, accommodation, and food services   
+    + Construction  
+    + Durable-goods manufacturing   
+    + Educational services, health care, and social assistance   
+    + Finance, insurance, real estate, rental, and leasing   
+    + Government   
+    + Information	 
+    + Professional and business services 
+    + Trade   
+    + Transportation and utilities   
+<br>     
+<br>   
+
+> [Use Tableau story for multiple perspectives. Here's an example of what you can do: "CNTL" + click for a New Tab](https://public.tableau.com/shared/THHKYTJC8?:display_count=yes&:origin=viz_share_link){target="_blank"}   
+
+<br>
+<br>   
+
+
+> **Story Function**  
+> The story function allows you to compile all of these separate sheet into one visual, interactive narrative. 
+> Click book icon in lower right to create a story.
+> Add your various sheets to a story, creating one interactive graphic with multiple panels.
+
+
+![ ](Images-Sabew/Tab-Story.png)
+
+<br>   
+<br>
+
+>  **Duplicate and Iterate.**    
+  I built these multiple views by first formatting the first Arkansas sheet. Duplicate by left clicking on the sheet tab. Once copied, adjust the filter for your state or city. 
+  You can zero in on specific items and build specific data visualizations for industries or cities.  
+  Get the embed code from Tableau Public and add it to your blog or website.  
+  
+  
+> Now, go experiment and figure out some other visualization!
+
+> 
+
+**Thank you.**  
+
+>
+
+###Follow up questions:   
+
+- Rob Wells - rswells@uark.edu or @rwells1961  
+
+To reach the Bureau of Economic Analysis:  
+   
+- Jeannine Aversa - Jeannine.Aversa@bea.gov    
+   
+- Thomas Dail - Thomas.Dail@bea.gov  
+   
+   
+
+   
+<img src="Images-Sabew/Bea logo.jpg" width="150" height="100" />
+<img src="Images-Sabew/UARK Logo vert NEW copy.jpg" width="100" height="100" />
+<img src="Images-Sabew/Reynolds logo2.jpg" width="150" height="200" />    
+
+
+
+
+
+
+**--30--**
+
+
+
