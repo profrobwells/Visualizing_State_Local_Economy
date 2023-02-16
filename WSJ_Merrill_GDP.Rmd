@@ -63,8 +63,12 @@ What is the annual mean wage for Gambling Dealers?
 
 Let's work with the data ourselves. I've created a simplified version for this lesson that just focuses on Maryland
 
-> [Download the Maryland Occupational Employment and Wage Statistics: "CNTL" + click for a New Tab](https://www.bls.gov/oes/special.requests/oesm21st.zip){target="_blank"}
+> [Download the Maryland Occupational Employment and Wage Statistics: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1iA43WV1AOrOo8tUAKG2fZ45jdFO29tQL-WyHqUvgVS8/edit?usp=sharing){target="_blank"}
 
+Open the file in Google Sheets.
+It will look like this:
+
+![ ](Images-Sabew/OES_3.png)
 
 What do these columns mean? Look for the data dictionary or field descriptions. To save time, I downloaded in separately and put it here.
 
