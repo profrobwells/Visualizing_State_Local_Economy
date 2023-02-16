@@ -58,8 +58,10 @@ Scroll down to the table, use the search box and type in "waiter." You'll see me
 
 ![ ](Images-Sabew/OES_2.png)
 
-What is the median hourly wage for Chief Executives?
-What is the annual mean wage for Gambling Dealers?
+Questions:  
+
+    What is the median hourly wage for Chief Executives?
+    What is the annual mean wage for Gambling Dealers?
 
 Let's work with the data ourselves. I've created a simplified version for this lesson that just focuses on Maryland
 
@@ -74,8 +76,70 @@ What do these columns mean? Look for the data dictionary or field descriptions. 
 
 > [Look at field descriptions for Maryland Occupational Employment and Wage Statistics: "CNTL" + click for a New Tab](https://docs.google.com/spreadsheets/d/1pUo9reCv6OvN87EZvFeHYJVN9qM57GeR/edit?usp=sharing&ouid=102324743793755798467&rtpof=true&sd=true){target="_blank"}
 
+Back to [the Maryland Occupational Employment and Wage Statistics.](https://docs.google.com/spreadsheets/d/1iA43WV1AOrOo8tUAKG2fZ45jdFO29tQL-WyHqUvgVS8/edit?usp=sharing){target="_blank"}
+
+    1) Sort the sheet to find the highest and lowest hourly wage. Take a look at the list. What surprised you?
+    
+    2) The "All Occupations" entry summarizes the Maryland workforce. Find the average annual salary for all occupations. 
+    Count how many occupations are below that average and how many above? 
+    How could that be a story?
+    
+    3) Filter for journalists. 
+    --Apply Filter to OCC_Code. 
+    --Select Filter by Condition. 
+    --Select Text contains. 
+    --Type in "journalists" and apply
+    How does that annual salary compare to the state average?
+    How could that be a story?
+    
+    4) Examine the OCC_CODE column. The occupations ending in "0000" are occupational categories. Filter OCC_CODE for "0000" and examine the 23  occupational categories.
+    --Apply Filter to OCC_Code. 
+    --Select Filter by Condition. 
+    --Select Text contains. 
+    --Type in -0000 and apply
+    You now will have a list of the 23 occupational categories
+    Copy and paste the results on to a new sheet.
+    --Select the results and copy
+    --Click + icon at bottom left. A new blank sheet is created. Name it Occupations
+    --Click at cell A1 and paste your results 
+    How could this be a story?
+    
+
+#Step 2: Basic Interactive Chart
+
+<br>
+<br>
+#### Create a Datawrapper Account
+
+Datawrapper creates great charts and maps in the cloud, which you can use to embed in your stories. There's no software to install on your computer.
+
+> [I recommend you create a Datawrapper account: "CNTL" + click for a New Tab](https://app.datawrapper.de/signin?ref=/#/signin){target="_blank"}
+
+> [Try Datawrapper without an account: "CNTL" + click for a New Tab](https://app.datawrapper.de/create/chart){target="_blank"}
 
 
+On Datawrapper:
+
+    --Select "Create new" and select chart.
+    --Select "Connect Google Sheet" and paste URL from our Occupations sheet. Select "Proceed"
+    --Check and Describe, make sure all was imported correctly
+    --Visualize
+        --Select Bar Chart
+        --Select Refine Tab
+            --Bars = A_Mean
+            --Labels = OCC_TITLE
+            --Show Values
+              --Number format: Custom and paste in this into the box: $0.00]a
+            --Sorting and Grouping
+              --Select Reverse Order
+            
+        --Select Annotate Tab
+            --Type in a headline, description, Data Source, link to original data and your byline. Click for social media sharing
+    --Click publish & Embed
+    
+    https://datawrapper.dwcdn.net/yU4Iu/1/
+    
+<iframe title="Average Salaries for Maryland Occupations" aria-label="Bar Chart" id="datawrapper-chart-yU4Iu" src="https://datawrapper.dwcdn.net/yU4Iu/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="778" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
 
 
@@ -193,18 +257,7 @@ And here is the end result in a Google Sheet. Add this sheet to your Google Driv
 <br>  
 
 
-#Step 2: Basic Interactive Chart
-
-<br>
-<br>
-#### Create a Datawrapper Account
-
-Datawrapper creates great charts and maps in the cloud, which you can use to embed in your stories. There's no software to install on your computer.
-
-> [I recommend you create a Datawrapper account: "CNTL" + click for a New Tab](https://app.datawrapper.de/signin?ref=/#/signin){target="_blank"}
-
-> [Try Datawrapper without an account: "CNTL" + click for a New Tab](https://app.datawrapper.de/create/chart){target="_blank"}
-
+#Old Tableau Instructions
 
 For this part, we will use Tableau Public to produce charts and a map. Download the app if you haven't already  
 
