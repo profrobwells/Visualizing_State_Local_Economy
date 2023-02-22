@@ -7,9 +7,9 @@ output: html_document
 **Feb. 24, 2023**.  
 <img src="Images-Sabew/MerrillLogo.png" width="600" height="300" />    
 
-**Today's Presentation**. 
+**Link to Today's Presentation**. 
 
-> **<http://bit.do/XXXX>**
+> **<https://tinyurl.com/merrillwsj>**
 
 <br>
 
@@ -17,14 +17,6 @@ output: html_document
 <br>
 Rob Wells, Ph.D., Philip Merrill College of Journalism
 
-**Based on an earlier presentation with these co-authors**   
-
-- Jeannine Aversa, Bureau of Economic Analysis, Washington, DC
-
-- Thomas Dail, Bureau of Economic Analysis, Washington, DC
-<br>
-<img src="Images-Sabew/Bea logo.jpg" width="150" height="75" />
-<br>
 <br>
 
 > **Learning Outcome:**. 
@@ -109,6 +101,9 @@ What do these columns mean? Look for the data dictionary or field descriptions. 
     
     How could this be a story?
     
+<br>
+
+<br> 
 
 # Step 2: Basic Interactive Chart
 
@@ -157,6 +152,8 @@ Or try Datawrapper [without an account](https://app.datawrapper.de/create/chart)
 
 
 # Step 3: Storytelling with Local GDP Data  
+
+<br> 
 
 GDP tells us if the economy is great or if it sucks.
 
@@ -285,6 +282,10 @@ Here is a [10-minute video](https://www.youtube.com/embed/5bS-GKvFzBk){target="_
 
 <iframe title="Montgomery County Dominates Maryland's Economy" aria-label="Interactive area chart" id="datawrapper-chart-p6oP9" src="https://datawrapper.dwcdn.net/p6oP9/3/" scrolling="no" frameborder="0" style="border: none;" width="600" height="719" data-external="1"></iframe>
 
+<br>
+
+<br>
+
 ### GDP chart: State, National Context
 
 This follows similar steps as above but the visualization is on the 2021 percentage change, which allows comparisons to the state and national levels.
@@ -318,9 +319,17 @@ This follows similar steps as above but the visualization is on the 2021 percent
 
 > You now have a GDP growth chart for the counties in Maryland with statewide and U.S. comparison figures. 
 
----  
+<br>
+
+<br>
+
 
 # Step 4: Basic Map
+
+<br>.   
+
+> **We'll use Datawraper again to build a chloropleth map of the total GDP per county in Maryland.** 
+
 
     1--Select "Create new" and select Map and then "Chloropleth map."
     2--Type "Maryland" in the search box and select "USA>>Maryland>>Counties" and then "Proceed"
@@ -346,8 +355,13 @@ This follows similar steps as above but the visualization is on the 2021 percent
 <br>
 <iframe title="Montgomery County Powers Maryland's Economy" aria-label="Map" id="datawrapper-chart-UY7hG" src="https://datawrapper.dwcdn.net/UY7hG/2/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="457" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
+
 <br>
----
+
+<br>
+
+> **Nerd Corner - Advanced Users**
+
 * If you are good with this tutorial, then you can go back to the BEA website and look for data on industry-specific sector growth. You can choose one or more of the following:
     + Arts, entertainment, recreation, accommodation, and food services   
     + Construction  
@@ -373,17 +387,24 @@ This follows similar steps as above but the visualization is on the 2021 percent
   The great thing about this data work is you can iterate and improve on your work. My tip: save the version you like, then copy it and refine it again. 
 > Now, go experiment and figure out some other visualization!
 
+<br>   
+
+<br>
+
 
 ### Follow up questions:   
 
 - Rob Wells - robwells@umd  
 
-To reach the Bureau of Economic Analysis:  
+**Based on an earlier presentation with these co-authors**   
+
+- Jeannine Aversa, Bureau of Economic Analysis, Jeannine.Aversa@bea.gov    
+
+- Thomas Dail, Bureau of Economic Analysis, Thomas.Dail@bea.gov  
+
    
-- Jeannine Aversa - Jeannine.Aversa@bea.gov    
-   
-- Thomas Dail - Thomas.Dail@bea.gov  
-   
+<br>
+
 
 **Thank you.**  
    
