@@ -1,5 +1,5 @@
 ---
-title: "Show Me the Money"
+title: "Follow the Money"
 output: html_document
 ---
 #### The Philip Merrill College of Journalism 
@@ -360,9 +360,13 @@ This follows similar steps as above but the visualization is on the 2021 percent
 
 <br>
 
-> **Nerd Corner - Advanced Users**
+# Nerd Corner - Advanced Users. 
 
-* If you are good with this tutorial, then you can go back to the BEA website and look for data on industry-specific sector growth. You can choose one or more of the following:
+* If you are good with this tutorial, then you can go back to the BEA website, look at the Regional Economic Accounts page and grab data for [income trends per county since 1969](https://apps.bea.gov/regional/downloadzip.cfm){target="_blank"}.   
+
+* Or you can look for data on [industry-specific sector growth](https://apps.bea.gov/regional/downloadzip.cfm){target="_blank"}    
+
+  Select Personal Income (State and Local) and then "CAEMP25N: Total Full-Time and Part-Time Employment by NAICS Industry." This is a huge dataset and you can track county level employment in any of these sectors:
     + Arts, entertainment, recreation, accommodation, and food services   
     + Construction  
     + Durable-goods manufacturing   
@@ -378,9 +382,16 @@ This follows similar steps as above but the visualization is on the 2021 percent
 > Detailed Instructions to Obtain More In-Depth GDP Data
 
 ![ ](Images-Sabew/Interactive Data Tables.jpg)
+<br>    
+
+> **With the regional data. heres's one option to profile a county's economy:**   
+
+<br>  
+
+<iframe title="Montgomery County's Employment Picture Over Two Decades" aria-label="Split Bars" id="datawrapper-chart-Y4E92" src="https://datawrapper.dwcdn.net/Y4E92/1/" scrolling="no" frameborder="0" style="border: none;" width="600" height="991" data-external="1"></iframe>
 
 
-<br>   
+
 <br>
 
 >  **Duplicate and Iterate.**    
@@ -390,6 +401,19 @@ This follows similar steps as above but the visualization is on the 2021 percent
 <br>   
 
 <br>
+<br>
+
+>  **More Resources.**    
+  I recorded a series of lectures for the Sage Research Methods video series on data visualization and research. You can find them here:   
+  
+[**“Practical Tips for Doing Online Archival Research.”**](https://dx.doi.org/10.4135/9781529604528){target="_blank"}.  
+      
+[**“Storytelling With Big Data: An Example From COVID-19 Data.”**](https://dx.doi.org/10.4135/9781529602760){target="_blank"}.  
+      
+[**“Choosing the right visualization tools for COVID-19 data.”**](https://www.doi.org/10.4135/9781529778342){target="_blank"}. 
+      
+<br>
+<br>    
 
 
 ### Follow up questions:   
